@@ -1,0 +1,14 @@
+#hasil-output{
+    width: 250px;
+    height: 350px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

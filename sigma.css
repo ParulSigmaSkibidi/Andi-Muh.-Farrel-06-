@@ -1,0 +1,37 @@
+h1{
+    font-size: 30px;
+}
+*{
+    font-family:Tahoma;
+}
+#h23{
+    color: chartreuse;
+background: linear-gradient(rgba(62,157,62,0.5) 0%,rgba(240,45,253,1)100%);
+}
+#h24{
+    color:chocolate;
+background: linear-gradient(rgba(153,0,247,1) 10%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+}
+.penulis{
+    color: red;
+    font-weight: bold;
+}
+h3+p{
+    color: grey;
+}
+.tanggal{
+    color: olive;
+}
+.artikel{
+    font-size: 25px;
+}
+.credit{
+    font-size: 12px;
+    font-weight: bold;
+}
+span{
+    color: blueviolet;
+}
+h1~p{
+    text-align: justify;
+}

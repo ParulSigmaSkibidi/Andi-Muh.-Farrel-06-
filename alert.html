@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Dialog Alert</title>
+    </head>
+    <body>
+    <script>
+        var yakin = confirm("Apakah kamu ingin menulis nama anda?");
+if (yakin)     
+    var nama = prompt("Siapa nama kamu?", "");
+    var ulangi = confirm("Apakah anda mau mengulang?");
+var counter = 0;
+
+while(ulangi){
+    var jawab = confirm("Apakah anda mau mengulang?")
+    counter++;
+    if(jawab == false){
+        ulangi = false;
+    }
+}
+
+document.write("Perulangan sudah dilakukan sebanyak "+ counter +" kali");
+    </script>
+    </body>
+</html>
